@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2189998850037594592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2189998850037594594}
+  - component: {fileID: 2189998850037594593}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2189998850037594594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2189998850037594592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2189998850037594593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2189998850037594592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50ffa311faba96b498553be0d2006948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerLaser
+    clip: {fileID: 8300000, guid: 21be75d4e26178a4f9aacb0ad1b5789b, type: 3}
+    loop: 0
+    volume: 0.07
+    pitch: 1
+    source: {fileID: 0}
+  - name: LargeEnemyDeath
+    clip: {fileID: 8300000, guid: d5e3fcaf7257613469f4810b7f04a624, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: 80bb90efba2b0c64bac91b33f2da8c4f, type: 3}
+    loop: 1
+    volume: 0.75
+    pitch: 1
+    source: {fileID: 0}
+  - name: MissionMusic
+    clip: {fileID: 8300000, guid: f64c229cebed99b49816d90dbf97e5ff, type: 3}
+    loop: 1
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ButtonClicked
+    clip: {fileID: 8300000, guid: 03fedf004c4c20d49bfe4e3589ac40ac, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: ShieldBoost
+    clip: {fileID: 8300000, guid: e074bb77da38f804d88a899eb3515de9, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: Pickup
+    clip: {fileID: 8300000, guid: 40321b3d2867ba64184474207d63fdb9, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerAnti
+    clip: {fileID: 8300000, guid: aadff5873f293cd4a9a5bbcd5331503d, type: 3}
+    loop: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: Torpedo
+    clip: {fileID: 8300000, guid: 08df100ce8207724d80e57d2fb908920, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: SmallEnemyDeath
+    clip: {fileID: 8300000, guid: 6277a2236b74f8943ab0323a3160c1ce, type: 3}
+    loop: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: LoadAmmo
+    clip: {fileID: 8300000, guid: 0655f4eb30d0b7942b5785e812b8ce20, type: 3}
+    loop: 0
+    volume: 0.75
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerDamage
+    clip: {fileID: 8300000, guid: 371584c37aacc35468fdda50db0b9fed, type: 3}
+    loop: 0
+    volume: 0.75
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerExplosion
+    clip: {fileID: 8300000, guid: 9f6f61c8909ed814fa23adca574a6b99, type: 3}
+    loop: 0
+    volume: 0.75
+    pitch: 1
+    source: {fileID: 0}
+  - name: finalBattle
+    clip: {fileID: 8300000, guid: cccb7fd9a565e6a45bf1002ba48953d5, type: 3}
+    loop: 1
+    volume: 0.75
+    pitch: 1
+    source: {fileID: 0}
